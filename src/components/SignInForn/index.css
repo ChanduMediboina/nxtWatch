@@ -1,0 +1,66 @@
+.sign-in-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #c5cddb;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #d3e1e3;
+  padding: 30px;
+}
+.label {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  color: #1a1c1a;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.sign-input {
+  padding: 10px;
+  border: 2px solid #616e7c;
+  width: 200px;
+  border-radius: 10px;
+  outline: none;
+  width: 240px;
+}
+select {
+  width: 240px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #616e7c;
+}
+.sign-in-button {
+  background-color: #0f95d4;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.login-to-btn {
+  background-color: transparent;
+  border: none;
+  color: #1f5abf;
+  font-size: 18px;
+  font-weight: 540;
+  padding-top: 10px;
+}
+.success {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #12e63d;
+}
+.error-msg {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #ed0a02;
+}

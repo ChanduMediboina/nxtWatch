@@ -1,0 +1,114 @@
+.home-page-container {
+  display: flex;
+}
+.home-right-page-container {
+  width: 75%;
+}
+.premium-page-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  padding: 20px;
+}
+.close-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.close-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px;
+}
+.close-btn:hover {
+  background-color: red;
+}
+.home-logo-img {
+  width: 15%;
+}
+.buy-premium-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #231f20;
+}
+.get-now-btn {
+  border: 1.5px solid #00306e;
+  color: #00306e;
+  padding: 6px;
+  background-color: transparent;
+}
+.search-container {
+  border: 2px solid #616e7c;
+  max-width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px;
+}
+.input-element {
+  border: none;
+  outline: none;
+  flex: 1;
+  margin: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+.search-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-color: #f1f5f9;
+  border-left: 2px solid #616e7c;
+}
+.search-icon {
+  font-size: 25px;
+}
+.video-ul-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.video-failure-img {
+  width: 80%;
+  margin: 10px;
+}
+.no-result-container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.no-videos-img {
+  width: 70%;
+}
+.try-again-btn {
+  border: none;
+  background-color: #4f46e5;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Roboto';
+  color: #fff;
+  cursor: pointer;
+}
+.no-result-para {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #231f20;
+  line-height: 0.4;
+}

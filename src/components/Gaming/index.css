@@ -1,0 +1,14 @@
+.dark {
+  background-color: #0f0f0f;
+  min-height: 100vh;
+}
+.light {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+.font-light {
+  color: #fff;
+}
+.font-dark {
+  color: #000;
+}

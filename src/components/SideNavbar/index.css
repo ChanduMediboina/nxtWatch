@@ -1,0 +1,47 @@
+.side-navbar {
+  width: 26%;
+  padding: 15px;
+}
+.home-icon-heading-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.side-nav-icons {
+  font-size: 18px;
+  font-weight: 600;
+}
+.home-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  font-weight: 550;
+  padding-left: 10px;
+}
+.contact-us-container {
+  position: fixed;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.contact-us-para {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.social-media-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.facebook-img {
+  width: 15%;
+  margin-right: 10px;
+}
+.enjoy-para {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 300px;
+}
